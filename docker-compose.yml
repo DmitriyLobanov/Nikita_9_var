@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  postgres:
+    container_name: "postgres-var9"
+    image: postgres:14.5-alpine
+    restart: always
+    environment:
+      POSTGRES_USERNAME: "postgres"
+      POSTGRES_PASSWORD: "postgres"
+      POSTGRES_DB: "postgres"
+    volumes:
+      - ./sql/create_tables.sql:/docker-entrypoint-initdb.d/create_tables.sql
+      - ./sql/fill_tables.sql:/docker-entrypoint-initdb.d/fill_tables.sql
+    ports:
+      - "5432:5432"

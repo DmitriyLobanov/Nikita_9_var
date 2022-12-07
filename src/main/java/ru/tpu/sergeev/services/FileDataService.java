@@ -53,7 +53,7 @@ public class FileDataService {
             folder.mkdir();
         }
         pathname = pathname + fileNameUnique;
-        slf4jLogger.info("saving file {} at directory {}", multipartFile.getOriginalFilename(), pathname);
+        slf4jLogger.info("Сохранение файла {} по пути {}", multipartFile.getOriginalFilename(), pathname);
         File target = new File(pathname);
         try (OutputStream os = new FileOutputStream(target)) {
             InputStream is = multipartFile.getInputStream();

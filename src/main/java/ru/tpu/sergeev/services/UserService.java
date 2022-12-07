@@ -27,7 +27,7 @@ public class UserService implements UserDetailsService {
         if (userOptional.isPresent()) {
           return false;
         }
-        slf4jLogger.info("Create new user with username {}", userDto.getUsername());
+        slf4jLogger.info("Создание нового пользователя с именем {}", userDto.getUsername());
 
         User user = new User(null, userDto.getUsername(), bCryptPasswordEncoder.encode(userDto.getPassword()), RoleEnum.ROLE_USER);
         userRepository.save(user);
