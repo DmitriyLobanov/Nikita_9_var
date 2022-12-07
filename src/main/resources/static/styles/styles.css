@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.search {
+    display: inline;
+    min-width: 500px;
+    background: darkslategray;
+}
+
+.header {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.header-button {
+    min-width: 150px;
+    background: cadetblue;
+}
+
+.file {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    background: cadetblue;
+}
+
+.auth-form {
+    min-height: 150px;
+    min-width: 500px;
+    margin-top: 100px;
+    background-color: #cff4fc;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 30px;
+
+}
+.start-btn{
+    margin-top: 10px;
+    /*mi: 150px;*/
+    height: 55px;
+    width: 300px;
+    font-size: 20px;
+}
+.upload-form{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 20px;
+    min-height: 150px;
+    background-color: #cff4fc;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,62 @@
+2022-12-07 23:31:45.225  INFO 9828 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : Starting Nikita9VarApplication using Java 11.0.16.1 on DESKTOP-9Q6DAO3 with PID 9828 (C:\Users\guard\OneDrive\Рабочий стол\Andrew_javavava\Nikita_9_var\Nikita_9_var\target\classes started by guard in C:\Users\guard\OneDrive\Рабочий стол\Andrew_javavava\Nikita_9_var\Nikita_9_var)
+2022-12-07 23:31:45.250  INFO 9828 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-07 23:31:46.938  INFO 9828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07 23:31:47.030  INFO 9828 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 76 ms. Found 2 JPA repository interfaces.
+2022-12-07 23:31:49.149  INFO 9828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-07 23:31:49.169  INFO 9828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07 23:31:49.169  INFO 9828 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-07 23:31:49.634  INFO 9828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07 23:31:49.634  INFO 9828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4296 ms
+2022-12-07 23:31:49.987  INFO 9828 --- [main] com.zaxxer.hikari.HikariDataSource       : postgres - Starting...
+2022-12-07 23:31:50.578  INFO 9828 --- [main] com.zaxxer.hikari.HikariDataSource       : postgres - Start completed.
+2022-12-07 23:31:50.665  INFO 9828 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07 23:31:50.758  INFO 9828 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-07 23:31:51.340  INFO 9828 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-07 23:31:52.024  INFO 9828 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-12-07 23:31:53.168  INFO 9828 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07 23:31:53.180  INFO 9828 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07 23:31:53.798  INFO 9828 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3d8fd373, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dcd451f, org.springframework.security.web.context.SecurityContextPersistenceFilter@57e57dc5, org.springframework.security.web.header.HeaderWriterFilter@96075c0, org.springframework.security.web.authentication.logout.LogoutFilter@3093b9ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3c17794e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@147059f8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@744fb110, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@342394b3, org.springframework.security.web.session.SessionManagementFilter@4679554d, org.springframework.security.web.access.ExceptionTranslationFilter@186d6033, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@64dcf763]
+2022-12-07 23:31:53.843  WARN 9828 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07 23:31:54.273  INFO 9828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-07 23:31:54.286  INFO 9828 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : Started Nikita9VarApplication in 9.939 seconds (JVM running for 12.089)
+2022-12-07 23:32:31.314  INFO 9828 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07 23:32:31.315  INFO 9828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07 23:32:31.316  INFO 9828 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07 23:32:37.075  WARN 9828 --- [http-nio-8080-exec-7] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [414] milliseconds.
+2022-12-07 23:32:37.087  INFO 9828 --- [http-nio-8080-exec-8] r.t.sergeev.controllers.AuthController   : Пользователь 1234 авторизовался как администратор
+2022-12-07 23:32:52.694  INFO 9828 --- [http-nio-8080-exec-1] ru.tpu.sergeev.services.FileDataService  : Delete file with id 2
+2022-12-07 23:33:11.988  INFO 9828 --- [http-nio-8080-exec-8] ru.tpu.sergeev.services.FileDataService  : saving file Laboratornaya_rabota_No3__Geneticheskie_algoritmy.docx at directory src/main/resources/uploaded_files/aa58ecf8-9a58-48e4-b5a7-43babdc68135.docx
+2022-12-07 23:33:53.404  INFO 9828 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07 23:33:53.408  INFO 9828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : postgres - Shutdown initiated...
+2022-12-07 23:33:53.419  INFO 9828 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : postgres - Shutdown completed.
+2022-12-07 23:34:03.913  INFO 12684 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : Starting Nikita9VarApplication using Java 11.0.16.1 on DESKTOP-9Q6DAO3 with PID 12684 (C:\Users\guard\OneDrive\Рабочий стол\Andrew_javavava\Nikita_9_var\Nikita_9_var\target\classes started by guard in C:\Users\guard\OneDrive\Рабочий стол\Andrew_javavava\Nikita_9_var\Nikita_9_var)
+2022-12-07 23:34:03.917  INFO 12684 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : No active profile set, falling back to 1 default profile: "default"
+2022-12-07 23:34:04.867  INFO 12684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-07 23:34:04.967  INFO 12684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2022-12-07 23:34:05.568  INFO 12684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-12-07 23:34:05.576  INFO 12684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-12-07 23:34:05.577  INFO 12684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2022-12-07 23:34:05.682  INFO 12684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-12-07 23:34:05.682  INFO 12684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1708 ms
+2022-12-07 23:34:05.853  INFO 12684 --- [main] com.zaxxer.hikari.HikariDataSource       : postgres - Starting...
+2022-12-07 23:34:05.995  INFO 12684 --- [main] com.zaxxer.hikari.HikariDataSource       : postgres - Start completed.
+2022-12-07 23:34:06.050  INFO 12684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-07 23:34:06.134  INFO 12684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.12.Final
+2022-12-07 23:34:06.357  INFO 12684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-07 23:34:06.491  INFO 12684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2022-12-07 23:34:06.965  INFO 12684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-07 23:34:06.975  INFO 12684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-07 23:34:07.474  INFO 12684 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@71fb1da3, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1ecec098, org.springframework.security.web.context.SecurityContextPersistenceFilter@f6bc75c, org.springframework.security.web.header.HeaderWriterFilter@1e6bd367, org.springframework.security.web.authentication.logout.LogoutFilter@6c8ad6d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@320fc4b0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@bea283b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@73852720, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6cc44207, org.springframework.security.web.session.SessionManagementFilter@3601549f, org.springframework.security.web.access.ExceptionTranslationFilter@73e93c3a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6f36267d]
+2022-12-07 23:34:07.522  WARN 12684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-07 23:34:07.946  INFO 12684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-12-07 23:34:07.957  INFO 12684 --- [main] ru.tpu.sergeev.Nikita9VarApplication     : Started Nikita9VarApplication in 4.678 seconds (JVM running for 6.197)
+2022-12-07 23:34:39.954  INFO 12684 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-07 23:34:39.955  INFO 12684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-12-07 23:34:39.957  INFO 12684 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-12-07 23:34:43.310  WARN 12684 --- [http-nio-8080-exec-3] o.a.c.util.SessionIdGeneratorBase        : Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [415] milliseconds.
+2022-12-07 23:34:43.323  INFO 12684 --- [http-nio-8080-exec-4] r.t.sergeev.controllers.AuthController   : Пользователь 1234 авторизовался как администратор
+2022-12-07 23:34:47.200  INFO 12684 --- [http-nio-8080-exec-9] ru.tpu.sergeev.services.FileDataService  : Delete file with id 3
+2022-12-07 23:34:47.769  INFO 12684 --- [http-nio-8080-exec-2] ru.tpu.sergeev.services.FileDataService  : Delete file with id 4
+2022-12-07 23:34:48.281  INFO 12684 --- [http-nio-8080-exec-5] ru.tpu.sergeev.services.FileDataService  : Delete file with id 5
+2022-12-07 23:34:57.884  INFO 12684 --- [http-nio-8080-exec-10] ru.tpu.sergeev.services.FileDataService  : Create new user with username чсясячс
+2022-12-07 23:35:00.223  INFO 12684 --- [http-nio-8080-exec-5] r.t.sergeev.controllers.AuthController   : Пользователь чсясячс авторизовался
